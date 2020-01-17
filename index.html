@@ -58,7 +58,7 @@
         <div class="modal fade" id="modalConnect">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
-                    
+
                     <!-- Modal Header -->
                     <div class="modal-header bg-danger text-light">
                         <h4>Connexion</h4>
@@ -114,9 +114,10 @@
                     </div>
 
                     <!-- Modal body -->
-                    <div class="modal-body">
-                        <!--<form id="login" action="traitement.php" method="POST">-->
-                        <form class="login">
+                    <form class="login">
+                        <div class="modal-body">
+                            <!--<form id="login" action="traitement.php" method="POST">-->
+
                             <div class="form">
                                 <!-- bouton radio M.-->
                                 <div class="blocRadioSign">
@@ -202,16 +203,16 @@
 
                             </div>
 
-                    </div>
+                        </div>
 
-                    <!-- Modal footer -->
-                    <div class="modal-footer bg-danger">
-                        <p class="validé">
-                            <button class="btn btn-dark text-light" type="submit"
-                                id="boutonEnvoieSign">S'inscrire</button>
-                            <button class="btn btn-dark text-light" type="reset">Annuler</button>
-                        </p>
-                    </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer bg-danger">
+                            <p class="validé">
+                                <button class="btn btn-dark text-light" type="submit"
+                                    id="boutonEnvoieSign">S'inscrire</button>
+                                <button class="btn btn-dark text-light" type="reset">Annuler</button>
+                            </p>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -241,7 +242,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Forum</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item bg-danger text-light" href="#">Visiteur</a>
-                            <a class="dropdown-item bg-danger text-light" data-toggle="modal" data-target="#modalConnect">Utilisateur</a>
+                            <a class="dropdown-item bg-danger text-light" data-toggle="modal"
+                                data-target="#modalConnect">Utilisateur</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
